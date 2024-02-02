@@ -2,9 +2,9 @@
 - name: variables from PLAY level
   hosts: localhost
   vars:
-    Course: "DevOps"
-    Trainer: "Sivakumar"
-    Duration: "110HRS"
+    Course: "DevOps with AWS"
+    Trainer: "Ramesh"
+    Duration: "120HRS"
   tasks:
     - name: check variables
       ansible.builtin.debug:
